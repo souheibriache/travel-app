@@ -1,0 +1,80 @@
+.second__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 80px 0;
+    position: relative;
+    height: 85vh;
+}
+
+.second__section__rainbow{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second__section__rectangle{
+    position: absolute;
+    bottom: 0;
+    right: 68%;
+    z-index: -1;
+    width: 80px;
+}
+
+.second__section h4{
+    font-size: 18px;
+    color: #00000099;
+    font-weight: 600;
+}
+
+.second__section h2{
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.second__section__services{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 100px;
+}
+
+.second__section__services .second__section__service:hover{
+    box-shadow: 0px 8px 10px #00000022;
+    transition: .3s ease-in-out;
+}
+.second__section__services .second__section__service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+    text-align: center;
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.second__section__services .second__section__service div {
+    height: 100px;
+    width: 100px;
+}
+
+.second__section__services .second__section__service div img{
+    width: 100%;
+    height: 100%;
+}
+
+.second__section__services .second__section__service h4{
+    font-size: 20px;
+}
+
+.second__section__services .second__section__service p{
+    font-size: 18px;
+}

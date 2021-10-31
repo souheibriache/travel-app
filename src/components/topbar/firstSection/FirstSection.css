@@ -1,0 +1,108 @@
+.first__section{
+    width: 80%;
+    display: flex;
+    padding: 50px;
+    height: 80vh;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 30px;
+    
+}
+
+.firstsection__left{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.firstsection__left h4{
+    font-weight: 700;
+    font-size: 18px;
+    color: #DF6951;
+}
+
+.firstsection__left h2{
+    font-size: 5.7vw;
+    line-height: 5.8vw;
+    font-weight: 500;
+    font-family: 'Volkhov';
+
+}
+
+.firstsection__left h2 span{
+    position: relative;
+}
+.firstsection__left h2 span img{
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: auto;
+    width: 24vw;
+}
+
+.firstsection__left p {
+    font-size: 18px;
+}
+
+.firstsection__buttons{
+    display: flex;
+    align-items: center;
+}
+
+.firstsection__buttons .find__out__more{
+    background-color: #F1A501;
+    padding: 12px 18px ;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.firstsection__buttons .play__demo{
+    margin-left: 50px;
+    display: flex;
+}
+
+.firstsection__buttons .playDemo__circle{
+    background-color: #DF6951;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+.playDemo__circle img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.play__demo .playDemo__buton{
+    background: none;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.firstsection__right{
+    flex: 5;
+}
+.firstsection__right img{
+    width: 100%;
+}
+
+.first__section .decore{
+    position: absolute;
+    max-width: 50vw;
+    top: -200px;
+    right: -150px;
+    z-index: -1;
+    
+}

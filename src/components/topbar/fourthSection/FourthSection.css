@@ -1,0 +1,219 @@
+.fourth__section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin: 80px 0;
+    position: relative;
+    height: 85vh;
+}
+
+.fourth__section__left{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.fourth__section__left h4{
+    font-size: 18px;
+    color: #00000099;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.fourth__section__left h2{
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+.fourth__section__left .steps{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fourth__section__left .steps .steps__item{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fourth__section__left .steps .steps__item .book__info{
+    margin-left: 20px;
+}
+
+.fourth__section__left .steps .steps__item .book__info h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fourth__section__left .steps .steps__item .book__info p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.fourth__section__right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth__section__right .card__container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 25px 25px 25px  ;
+    box-shadow: 0 8px 50px #00000033;
+    margin-left: 100px;
+    position: relative;
+}
+
+.fourth__section__right .card__container>img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.fourth__section__right .card__container .card__info{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fourth__section__right .card__container .card__info .card__title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fourth__section__right .card__container .card__info .card__content{
+    font-size: 16px;
+    font-weight: 500;
+    color: #84829A;
+}
+
+.card__icons{
+    display: flex;
+    flex-direction: row;
+    width: 42%;
+    justify-content: space-between;
+}
+
+.card__icons .card__icon{
+    background-color: #F5F5F5;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__icons .card__icon>i{
+    position: relative;
+    color: #84829A;
+    
+}
+
+.card__bottom{
+    display: flex;
+    justify-content: space-between;
+    color: #84829A;
+}
+
+.card__bottom .card__people{
+    display: flex;
+    align-items: center;
+}
+
+.card__bottom .card__people p{
+    margin-left: 10px;
+}
+
+
+#float__div{
+    position: absolute;
+    right: -300px;
+    opacity: 0;
+    
+    top: 55%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 10px 50px #00000033;
+    transition: .4s ease;
+}   
+
+#card__container:hover  #float__div{
+    opacity: 1;
+    right: -40px;
+}
+
+.float__div__left{
+    flex: 2;
+
+    overflow: hidden;
+}
+
+.float__div__left img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.float__div__right {
+    flex: 5;
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.float__div__right .trip__status{
+    color: #84829A;
+    font-size: 14px;
+}
+
+.float__div__right .trip__destination{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.float__div__right .trip__progress{
+    display: flex;
+    flex-direction: column;
+}
+.float__div__right .trip__progress p{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.float__div__right .trip__progress p span{
+    color: #8A79DF;
+}
+
+.float__div__right .progress__bar{
+    background-color: #F5F5F5;
+    height: 10px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 3px;
+}
+
+.float__div__right .progress__bar .progress{
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+    background-color: #8A79DF;
+}
