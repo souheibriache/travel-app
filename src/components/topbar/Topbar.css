@@ -12,7 +12,7 @@
 }
 
 .colorChange{
-    background-color: #F5F5F5;
+    background-color: #F5F5F5f0;
 }
 
 .topbar__left{
@@ -49,4 +49,11 @@
 .sign__up{
     border: 1px solid #000 ;
     border-radius: 3px;
+    transition: .3s ease;
+}
+
+.sign__up:hover{
+    border-color: #fff;
+    background-color: #000;
+    color: #fff;
 }

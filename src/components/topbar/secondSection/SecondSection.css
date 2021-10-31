@@ -14,13 +14,7 @@
     right: 0;
 }
 
-.second__section__rectangle{
-    position: absolute;
-    bottom: 0;
-    right: 68%;
-    z-index: -1;
-    width: 80px;
-}
+
 
 .second__section h4{
     font-size: 18px;
@@ -42,10 +36,7 @@
     margin: 100px;
 }
 
-.second__section__services .second__section__service:hover{
-    box-shadow: 0px 8px 10px #00000022;
-    transition: .3s ease-in-out;
-}
+
 .second__section__services .second__section__service{
     display: flex;
     flex-direction: column;
@@ -57,6 +48,33 @@
     background-color: white;
     border-radius: 20px;
     padding: 20px;
+    position: relative;
+    box-shadow: 0px 5px 8px #00000011;
+}
+
+.second__section__services .second__section__service:hover{
+    box-shadow: 0px 8px 15px #00000022;
+    transition: .3s ease-in-out;
+    /* transform: scale(1.01); */
+    /* z-index: 2; */
+    background-color: white;
+}
+
+.second__section__rectangle{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    transition: .3s ease;
+    z-index: -1;
+    width: 80px;
+    opacity: 0;
+}
+
+.second__section__services .second__section__service:hover .second__section__rectangle{
+    left: -10%;
+    bottom: -10%;
+    z-index: -1;
+    opacity: 1;
 }
 
 
@@ -72,9 +90,9 @@
 }
 
 .second__section__services .second__section__service h4{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .second__section__services .second__section__service p{
-    font-size: 18px;
+    font-size: 16px;
 }
