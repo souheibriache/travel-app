@@ -14,6 +14,9 @@ function Topbar() {
   window.addEventListener('scroll', changeNavbarColor);
     return (
         <div className={colorChange ? 'topbar colorChange' : 'topbar'}>
+          <div className="topbar__container" >
+
+          
             <div className="topbar__left">
                 <img src="/images/Logo.svg" alt="" />
             </div>
@@ -27,6 +30,7 @@ function Topbar() {
                     <li className="topbar__menu__item sign__up" >Sign up</li>
                     <li className="topbar__menu__item" >En</li>
                 </ul>
+            </div>
             </div>
         </div>
     )
