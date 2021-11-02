@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
-    margin: 80px 0;
+    margin: 6vh 0;
     position: relative;
     height: 85vh;
 }
@@ -17,13 +17,13 @@
 
 
 .second__section h4{
-    font-size: 18px;
+    font-size: 1.4vw;
     color: #00000099;
     font-weight: 600;
 }
 
 .second__section h2{
-    font-size: 40px;
+    font-size: 3.2vw;
     margin-top: 15px;
     font-weight: 500;
 }
@@ -33,7 +33,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
-    margin: 100px;
+    margin: 8vw;
 }
 
 
@@ -42,18 +42,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin: 0 15px;
+    margin: 0 1.2vw;
     text-align: center;
-    height: 260px;
+    height: 40vh;
     background-color: white;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 1.2vw;
+    padding: 1.3vw;
     position: relative;
-    box-shadow: 0px 5px 8px #00000011;
+    box-shadow: 0px .5vh .7vw #00000011;
 }
 
 .second__section__services .second__section__service:hover{
-    box-shadow: 0px 8px 15px #00000022;
+    box-shadow: 0px 1vh 1vw #00000022;
     transition: .3s ease-in-out;
     /* transform: scale(1.01); */
     /* z-index: 2; */
@@ -66,7 +66,7 @@
     left: 10%;
     transition: .3s ease;
     z-index: -1;
-    width: 80px;
+    width: 5vw;
     opacity: 0;
 }
 
@@ -80,8 +80,8 @@
 
 
 .second__section__services .second__section__service div {
-    height: 100px;
-    width: 100px;
+    height: 7vw;
+    width: 7vw;
 }
 
 .second__section__services .second__section__service div img{
@@ -90,9 +90,9 @@
 }
 
 .second__section__services .second__section__service h4{
-    font-size: 18px;
+    font-size: 1.4vw;
 }
 
 .second__section__services .second__section__service p{
-    font-size: 16px;
+    font-size: 1.2vw;
 }

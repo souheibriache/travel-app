@@ -5,18 +5,18 @@
     justify-content: center;
     position: relative;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 24vh;
     /* margin-top: 50px; */
 }
 
 .newsletter .rainbow{
     position: absolute;
-    bottom: -50px;
-    right: 50px;
+    bottom: -7vh;
+    right: 7vh;
 }
 
 .newsletter .newsleter__container{
-    height: 350px;
+    height: 55vh;
     background: #DFD7F933;
     position: relative;
     /* overflow: hidden; */
@@ -26,7 +26,7 @@
     justify-content: space-around;
     /* padding: 20px 10px; */
     max-width: 80%;
-    border-radius: 100px 20px 20px 20px;
+    border-radius: 10vw 1.6vw 1.6vw 1.6vw;
 }
 
 .newsletter .newsleter__container .form__container{
@@ -35,8 +35,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0;
-    height: 350px;
+    padding: 7vh 0;
+    height: 45vh;
     overflow: hidden;
     position: relative;
 }
@@ -46,33 +46,34 @@
 }
 
 .newsletter .newsleter__container .form__container form input{
-    height: 60px;
-    width: 350px;
-    margin-right: 20px;
-    padding-left: 30px;
-    border-radius: 10px;
+    height: 8vh;
+    width: 27vw;
+    margin-right: 1.6vw;
+    padding-left: 2.2vw;
+    border-radius: .8vw;
     border: none;
     outline: none;
+    font-size: 1.1vw;
     background-color: white;
     z-index: 1;
 }
 
 .newsletter .newsleter__container .form__container form button{
-    border-radius: 10px;
-    width: 150px;
+    border-radius: .8vw;
+    width: 12vw;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: #FF7D68;
     color: white;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 .newsletter .newsleter__container p{
-    font-size: 30px;
+    font-size: 2.3vw;
     max-width: 80%;
-    line-height: 55px;
+    line-height: 7.5vh;
     text-align: center;
     font-weight: 700;
     color: #5E6282;
@@ -86,14 +87,14 @@
 }
 
 .newsletter .newsleter__container .circle_1{
-    bottom: -120px;
+    bottom: -17vh;
     left: 0;
     transform: scale(.85);
 }
 
 .newsletter .newsleter__container .circle_2{
-    top: -100px;
-    right: -150px;
+    top: -15vh;
+    right: -12vw;
     transform: scale(.6) rotate(-80deg);
 }
 
@@ -101,17 +102,17 @@
 .newsletter .newsleter__container .newsletter__icon__container{
     position: absolute;
     background-color: #5E3BE1;
-    height: 60px;
-    width: 60px;
+    height: 4.5vw;
+    width: 4.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     color: white;
-    top: -20px;
-    right: -20px;
+    top: -1.6vw;
+    right: -1.6vw;
 }
 
 .newsletter .newsleter__container .newsletter__icon__container i{
-    font-size: 25px;
+    font-size: 2vw;
 }

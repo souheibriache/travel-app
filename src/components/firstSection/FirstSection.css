@@ -1,11 +1,11 @@
 .first__section{
     width: 80%;
     display: flex;
-    padding: 50px;
+    padding: 4vw;
     height: 80vh;
-    margin-left: 20px;
+    margin-left: 1.5vw;
     position: relative;
-    margin-top: 30px;
+    margin-top: 5vh;
     
 }
 
@@ -19,7 +19,7 @@
 
 .firstsection__left h4{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.4vw;
     color: #DF6951;
 }
 
@@ -27,7 +27,7 @@
     font-size: 5.7vw;
     line-height: 5.8vw;
     font-weight: 500;
-    font-family: 'Volkhov';
+    font-family: Volkhov;
 
 }
 
@@ -36,7 +36,7 @@
 }
 .firstsection__left h2 span img{
     position: absolute;
-    top: 50px;
+    top: 7vh;
     bottom: 0;
     left: 0;
     z-index: -1;
@@ -45,7 +45,7 @@
 }
 
 .firstsection__left p {
-    font-size: 18px;
+    font-size: 1.4vw;
 }
 
 .firstsection__buttons{
@@ -55,24 +55,24 @@
 
 .firstsection__buttons .find__out__more{
     background-color: #F1A501;
-    padding: 12px 18px ;
+    padding: 1.8vh 1.4vw ;
     border-radius: 8px;
     color: white;
     cursor: pointer;
 }
 
 .firstsection__buttons .play__demo{
-    margin-left: 50px;
+    margin-left: 4vw;
     display: flex;
 }
 
 .firstsection__buttons .playDemo__circle{
     background-color: #DF6951;
-    padding: 10px;
+    padding: .8vw;
     border-radius: 50%;
     position: relative;
-    height: 20px;
-    width: 20px;
+    height: 1.8vw;
+    width: 1.8vw;
 }
 .playDemo__circle img{
     position: absolute;
@@ -80,15 +80,17 @@
     bottom: 0;
     left: 0;
     right: 0;
+    height: 1vw;
+    width: 1vw;
     margin: auto;
 }
 
 .play__demo .playDemo__buton{
     background: none;
-    margin-left: 20px;
+    margin-left: 1.6vw;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 1.4vw;
     font-weight: 500;
 }
 .firstsection__right{
@@ -96,13 +98,14 @@
 }
 .firstsection__right img{
     width: 100%;
+    height: 80vh;
 }
 
 .first__section .decore{
     position: absolute;
     max-width: 50vw;
-    top: -200px;
-    right: -150px;
+    top: -35vh;
+    right: -13vw;
     z-index: -1;
     
 }

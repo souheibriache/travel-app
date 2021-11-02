@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 13vh;
 }
 
 .footer__container{
@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    transform: translateY(-20px);
+    transform: translateY(-3vh);
 }
 
 .footer__menu{
@@ -25,7 +25,7 @@
 
 .footer__menu .footer__section{
     flex: 1;
-    margin: 0 20px ;
+    margin: 0 1.6vw ;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -36,38 +36,46 @@
 }
 
 .footer__section>h2{
-    font-size: 35px;
+    font-size: 2.7vw;
     font-weight: 500;
     font-family: 'poppins';
     color: #181E4B;
+    cursor: pointer;
 }
 
 .footer__section>.description{
-    font-size: 12px;
+    font-size: .95vw;
     max-width: 80%;
     font-weight: 500;
     color: #5E6282;
-    margin-top: 5px;
+    margin-top: 1vh;
 }
 
 .footer__section .footer__section__title{
-    font-size: 18px;
+    font-size: 1.4vw;
     text-align: start;
     font-weight: 700;
     color: #080809;
+
 }
 
 .footer__section .footer__section__menu{
     list-style: none;
-    margin-top: 20px;
+    margin-top: 3vh;
 }
 
 .footer__section .footer__section__menu .footer__menu__item{
-    font-size: 16px;
+    font-size: 1.2vw;
     font-weight: 500;
     color: #5E6282;
-    margin-top: 10px;
+    margin-top: 1.8vh;
+    cursor: pointer;
 }
+
+.footer__section .footer__section__menu .footer__menu__item:hover{
+    color: #FF7D68;
+}
+
 
 .footer__section .footer__social{
     display: flex;
@@ -75,39 +83,39 @@
 }
 
 .footer__section .footer__social .social__icon{
-    height: 35px;
-    width: 35px;
+    height: 2.7vw;
+    width: 2.7vw;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 1.6vw;
     border-radius: 50%;
-    box-shadow: 0 0 10px #00000022;
+    box-shadow: 0 0 1.5vw #00000022;
 }
 
 .footer__section .footer__discover{
     font-weight: 600;
-    font-size: 18px;
-    margin-top: 30px;
+    font-size: 1.4vw;
+    margin-top: 5vh;
     color: #5E6282;
 }
 
 .footer__section .download__container{
-    margin-top: 20px;
+    margin-top: 3vh;
 }
 
 .footer__section .download__container .download__item{
-    width: 90px;
-    height: 30px;
+    width: 7vw;
+    height: 5vh;
 }
 
 .footer__section .download__container .download__item:nth-child(2){
-    margin-left: 5px;
+    margin-left: .5vw;
 }
 
 .footer__copyright{
-    font-size: 14px;
+    font-size: 1vw;
     color: #5E6282;
     font-weight: 500;
 }

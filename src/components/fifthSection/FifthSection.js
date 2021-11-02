@@ -55,7 +55,7 @@ function FifthSection() {
                             </div>
                             <p className="card__quote" >“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
                             <div className="card__temoin" >
-                                <h4>Lyes Doueg</h4>
+                                <h4>Lyes Douag</h4>
                                 <p>Ceo of Red Button</p>
                             </div>
                         </div>

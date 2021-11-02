@@ -6,7 +6,7 @@ function Footer() {
             <div className="footer__container" >
                 <div className="footer__menu" >
                     <div className='footer__section overflex' >
-                        <h2>Jadoo</h2>
+                        <h2>Jadoo.</h2>
                         <p className="description">Book your trip in minute, get full Control for much longer.</p>
                     </div>
 
