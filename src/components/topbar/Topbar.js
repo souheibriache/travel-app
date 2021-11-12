@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './Topbar.css'
 function Topbar() {
 
-    const [colorChange, setColorchange] = useState(false);
+  const [colorChange, setColorchange] = useState(false);
+  const [topbar, settopbbar] = useState(false);
   const changeNavbarColor = () =>{
      if(window.scrollY >= 50){
        setColorchange(true);
@@ -21,7 +22,12 @@ function Topbar() {
                 <img src="/images/Logo.svg" alt="" />
             </div>
             <div className="topbar__right">
-                <ul className="topbar__menu" >
+                <div className="topbar__toggle  " onClick={() => settopbbar(!topbar)} >
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <ul className={ topbar ?  "topbar__menu active__menu" : "topbar__menu"} >
                     <li className="topbar__menu__item" >Destinations</li>
                     <li className="topbar__menu__item" >Hotels</li>
                     <li className="topbar__menu__item" >Flights</li>

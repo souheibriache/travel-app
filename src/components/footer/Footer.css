@@ -94,6 +94,10 @@
     box-shadow: 0 0 1.5vw #00000022;
 }
 
+.footer__section .footer__social .social__icon i{
+    font-size: 1.2vw;
+}
+
 .footer__section .footer__discover{
     font-weight: 600;
     font-size: 1.4vw;
