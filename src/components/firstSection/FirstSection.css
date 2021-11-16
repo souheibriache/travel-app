@@ -27,12 +27,15 @@
     font-size: 5.7vw;
     line-height: 5.8vw;
     font-weight: 500;
-    font-family: Volkhov;
+    font-family: 'Volkhov';
 
 }
 
 .firstsection__left h2 span{
     position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
 }
 .firstsection__left h2 span img{
     position: absolute;
@@ -110,3 +113,148 @@
     z-index: -1;
     
 }
+
+@media(max-width: 760px){
+    .first__section{
+        width: 90%;
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 0;
+        position: relative;
+        margin-top: 12vh;
+        align-items: center;
+        
+    }
+
+    .firstsection__right img{
+        display: none;
+    }
+
+    .firstsection__left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .firstsection__left h4{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .firstsection__left h2{
+        font-size: 60px;
+        line-height: 80px;
+        margin: 20px 0;
+    
+    }
+
+    .firstsection__left h2 span img{
+        top: 20px;
+        width: 140%;
+    }
+
+    .firstsection__left p {
+        font-size: 18px;
+        margin: 20px 0;
+        margin-bottom: 40px;
+    }
+
+    .firstsection__buttons{
+        margin-top: 20px;
+    }
+
+    .firstsection__buttons .find__out__more{
+        padding: 10px 15px ;
+        font-size: 18px !important;
+    }
+    
+    .firstsection__buttons .play__demo{
+        margin-left: 15px;
+    }
+    .firstsection__buttons .playDemo__circle{
+        padding: 10px;
+        border-radius: 50%;
+        position: relative;
+        height: 15px;
+        width: 15px;
+    }
+
+    .playDemo__circle img{
+
+        height: 10px;
+        width: 10px;
+    }
+
+    .play__demo .playDemo__buton{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .first__section .decore{
+        position: absolute;
+        max-width: 170vw !important;
+        width: 170vw !important;
+        top: -35vh;
+        right: -13vw;
+        z-index: -1;
+        
+    }
+}
+
+@media(max-width: 400px){
+    .firstsection__left h4{
+        font-size: 18px;
+        margin: 15px 0;
+        margin-top: 30px;
+    }
+    .firstsection__left h2{
+        font-size: 45px;
+        line-height: 60px;
+        margin: 15px 0;
+    
+    }
+
+    .firstsection__left h2 span img{
+        top: 15px;
+    }
+
+    
+    .firstsection__left p {
+        font-size: 16px;
+        margin: 20px 0;
+        margin-bottom: 30px;
+    }
+
+    
+    .firstsection__buttons .find__out__more{
+        padding: 8px 10px ;
+        font-size: 15px !important;
+    }
+
+    .firstsection__buttons .play__demo{
+        margin-left: 10px;
+    }
+
+    .firstsection__buttons .playDemo__circle{
+        padding: 10px;
+        height: 10px;
+        width: 10px;
+    }
+
+    .playDemo__circle img{
+
+        height: 8px;
+        width: 8px;
+    }
+
+    .play__demo .playDemo__buton{
+        margin-left: 8px;
+        font-size: 15px;
+    }
+
+
+}
+

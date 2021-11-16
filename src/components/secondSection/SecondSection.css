@@ -96,3 +96,124 @@
 .second__section__services .second__section__service p{
     font-size: 1.2vw;
 }
+
+@media(max-width: 1050px){
+    .second__section{
+        width: 90%;
+        margin: 30px 0;
+    }
+    
+    .second__section h4{
+        font-size: 18px;
+    }
+    
+    .second__section h2{
+        font-size: 32px;
+    }
+
+    .second__section__services{
+        display: flex;
+        margin: 8vw 0;
+    }
+
+    .second__section__services .second__section__service{
+        margin: 0 5px;
+        text-align: center;
+        height: 250px;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0px .5vh .7vw #00000022;
+    }
+    
+    .second__section__services .second__section__service:hover{
+        box-shadow: 0px 5px 15px #00000033;
+        transition: .3s ease-in-out;
+        /* transform: scale(1.01); */
+        /* z-index: 2; */
+        background-color: white;
+    }
+
+    .second__section__rectangle{
+        display: none;
+    }
+    
+    .second__section__services .second__section__service div {
+        
+        width: 70%;
+        height: auto !important;
+    }
+
+    .second__section__services .second__section__service h4{
+        font-size: 16px;
+    }
+
+    .second__section__services .second__section__service p{
+        font-size: 13px;
+    }
+    
+    
+    
+}
+
+@media(max-width: 760px){
+
+
+    .second__section{
+        margin: 20px 0;
+        height: auto;
+    }
+
+    .second__section h4{
+        font-size: 16px;
+    }
+
+    .second__section h2{
+        font-size: 30px;
+    }
+    
+    .second__section__services{
+        display: flex;
+        margin: 50px 0;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second__section__services .second__section__service{
+        margin: 15px 10px;
+        text-align: center;
+        max-width: 40%;
+        height: 250px;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0px .5vh .7vw #00000022;
+    }
+
+    .second__section__services .second__section__service div {
+        
+        width: 40%;
+        height: auto !important;
+    }
+}
+
+@media(max-width: 560px){
+    .second__section h4{
+        font-size: 15px;
+    }
+
+    .second__section h2{
+        font-size: 25px;
+    }
+
+    .second__section__services .second__section__service{
+        margin: 15px 10px;
+        text-align: center;
+        max-width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0px .5vh .7vw #00000022;
+    }
+
+
+}
