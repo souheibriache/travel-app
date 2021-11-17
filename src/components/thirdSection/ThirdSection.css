@@ -45,12 +45,13 @@
 }
 
 .third__section__destination .destination__image{
-    height: 48vh;
+    height: 100%;
     overflow: hidden;
 }
 
 .third__section__destination .destination__image img{
     width: 100%;
+    height: 100%;
 }
 
 .third__section__destination .destination__info{
@@ -71,4 +72,114 @@
 .third__section__destination .destination__info .destination__duration span{
     margin-left: 1vw;
     font-size: 1.1vw;
+}
+
+@media(max-width: 1050px){
+    .third__section{
+        width: 90%;
+        margin: 30px 0;
+    }
+
+    .third__section h4{
+        font-size: 18px;
+
+    }
+
+    .third__section h2{
+        font-size: 32px;
+    }
+
+    .third__section__destinations{
+        display: flex;
+        margin: 8vw 0;
+    }
+
+    .third__section__destination{
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px #0000001F;
+    }
+
+    .third__section__destination .destination__info{
+        padding: 10px 8px;
+        padding-bottom: 20px;
+    }
+
+    .third__section__destination .destination__info .destination__duration{
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .third__section__destination .destination__info .destination__duration span{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    
+    
+}
+
+@media(max-width: 760px){
+    .third__section{
+        width: 90%;
+        margin: 30px 0;
+        height: auto;
+    }
+
+    
+    .third__section h4{
+        font-size: 16px;
+
+    }
+
+    .third__section h2{
+        font-size: 30px;
+    }
+
+    .third__section__destinations{
+        display: flex;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .third__section__destination{
+        min-width: 40%;
+        max-width: 40%;
+    }
+
+    .third__section__destination .destination__info{
+        padding: 10px 8px;
+        padding-bottom: 20px;
+    }
+
+    .third__section__destination .destination__info .destination__duration span{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 560px){
+    .third__section h4{
+        font-size: 15px;
+
+    }
+
+    .third__section h2{
+        font-size: 25px;
+    }
+
+    .third__section__destinations{
+        display: flex;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third__section__destination{
+        min-width: 90%;
+        max-width: 90%;
+    }
+
 }
