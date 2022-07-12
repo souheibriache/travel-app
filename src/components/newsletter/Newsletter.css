@@ -1,0 +1,118 @@
+.newsletter{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 24vh;
+    /* margin-top: 50px; */
+}
+
+.newsletter .rainbow{
+    position: absolute;
+    bottom: -7vh;
+    right: 7vh;
+}
+
+.newsletter .newsleter__container{
+    height: 55vh;
+    background: #DFD7F933;
+    position: relative;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 20px 10px; */
+    max-width: 80%;
+    border-radius: 10vw 1.6vw 1.6vw 1.6vw;
+}
+
+.newsletter .newsleter__container .form__container{
+    /* max-width: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7vh 0;
+    height: 45vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.newsletter .newsleter__container .form__container form{
+    display: flex;
+}
+
+.newsletter .newsleter__container .form__container form input{
+    height: 8vh;
+    width: 27vw;
+    margin-right: 1.6vw;
+    padding-left: 2.2vw;
+    border-radius: .8vw;
+    border: none;
+    outline: none;
+    font-size: 1.1vw;
+    background-color: white;
+    z-index: 1;
+}
+
+.newsletter .newsleter__container .form__container form button{
+    border-radius: .8vw;
+    width: 12vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FF7D68;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+
+.newsletter .newsleter__container p{
+    font-size: 2.3vw;
+    max-width: 80%;
+    line-height: 7.5vh;
+    text-align: center;
+    font-weight: 700;
+    color: #5E6282;
+    z-index: 1;
+}
+
+.newsletter .newsleter__container .circles{
+    position: absolute;
+    opacity: .1;
+    z-index: 0;
+}
+
+.newsletter .newsleter__container .circle_1{
+    bottom: -17vh;
+    left: 0;
+    transform: scale(.85);
+}
+
+.newsletter .newsleter__container .circle_2{
+    top: -15vh;
+    right: -12vw;
+    transform: scale(.6) rotate(-80deg);
+}
+
+
+.newsletter .newsleter__container .newsletter__icon__container{
+    position: absolute;
+    background-color: #5E3BE1;
+    height: 4.5vw;
+    width: 4.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    top: -1.6vw;
+    right: -1.6vw;
+}
+
+.newsletter .newsleter__container .newsletter__icon__container i{
+    font-size: 2vw;
+}
